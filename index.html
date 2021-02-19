@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Алфавит</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+    }
+    .buttons {
+      columns: 3;
+      text-align: center;
+      column-gap: 5px;
+      margin: 10px;
+    }
+
+    .button {
+      border: 0;
+      font-size: 3.5rem;
+      display: inline-block;
+      width: 100%;
+      margin: 3px 0;
+      border-radius: 5px;
+    }
+
+    .button:active {
+      outline: 2px solid #fc0;
+    }
+
+    input.button.button6 {
+        background: #C2F970;
+    }
+
+    input.button.button7 {
+        background: #A3C868;
+    }
+
+    input.button.button8 {
+        background: #839760;
+        color: #fff;
+    }
+
+    input.button.button9 {
+        background: #44344F;
+        color: #fff;
+    }
+
+    input.button.button10 {
+        background: #4D4168;
+        color: #fff;
+    }
+
+    input.button.button11 {
+        background: #524774;
+        color: #fff;
+    }
+
+    input.button.button12 {
+        background: #544A7A;
+        color: #fff;
+    }
+
+    input.button.button13 {
+        background: #564D80;
+        color: #fff;
+    }
+
+    input.button.button14 {
+        background: #98A6D4;
+    }
+
+    input.button.button15 {
+        background: #D3FCD5;
+    }
+
+    input.button.button16 {
+        background: #C38773;
+    }
+
+    input.button.button17 {
+        background: #BF6A5B;
+        color: #fff;
+    }
+
+    input.button.button18 {
+        background: #C88D3B;
+        color: #fff;
+    }
+
+    input.button.button19 {
+        background: #D1AF1A;
+        color: #fff;
+    }
+
+    input.button.button20 {
+        background: #C67E2E;
+        color: #fff;
+    }
+
+    input.button.button21 {
+        background: #BB4C42;
+        color: #fff;
+    }
+
+    input.button.button22 {
+        background: #B72F2A;
+        color: #fff;
+    }
+
+    input.button.button23 {
+        background: #B21111;
+        color: #fff;
+    }
+
+    input.button.button24 {
+        background: #930D1C;
+        color: #fff;
+    }
+
+    input.button.button25 {
+        background: #740927;
+        color: #fff;
+    }
+
+    input.button.button26 {
+        background: #550532;
+        color: #fff;
+    }
+
+    input.button.button27 {
+        background: #35013C;
+        color: #fff;
+    }
+
+    input.button.button28 {
+        background: #2F1B54;
+        color: #fff;
+    }
+
+    input.button.button29 {
+        background: #29356C;
+        color: #fff;
+    }
+
+    input.button.button30 {
+        background: #1C689C;
+        color: #fff;
+    }
+
+    input.button.button31 {
+        background: #03CFFC;
+    }
+
+    input.button.button32 {
+        background: #02E7AF;
+    }
+
+    input.button.button33 {
+        background: #01F389;
+    }
+
+    input.button.button34 {
+        background: #00FF62;
+    }
+
+    input.button.button35 {
+        background: #80FF31;
+    }
+
+    input.button.button36 {
+        background: #FFFF00;
+    }
+
+    input.button.button37 {
+        background: #FEAB02;
+    }
+
+    input.button.button38 {
+        background: #FC5603;
+        color: #fff;
+    }
+
+
+  </style>
+</head>
+<body>
+
+    <script>
+      function play(num) {
+        var id = 'audio' + num;
+        var audio = document.getElementById(id);
+        audio.play();
+      }
+    </script>
+    <div class="buttons">
+      <input class="button button6" type="button" value="А" onclick="play(6)">
+      <input class="button button7" type="button" value="Б" onclick="play(7)">
+      <input class="button button8" type="button" value="В" onclick="play(8)">
+      <input class="button button9" type="button" value="Г" onclick="play(9)">
+      <input class="button button10" type="button" value="Д" onclick="play(10)">
+      <input class="button button11" type="button" value="Е" onclick="play(11)">
+      <input class="button button12" type="button" value="Ё" onclick="play(12)">
+      <input class="button button13" type="button" value="Ж" onclick="play(13)">
+      <input class="button button14" type="button" value="З" onclick="play(14)">
+      <input class="button button15" type="button" value="И" onclick="play(15)">
+      <input class="button button16" type="button" value="Й" onclick="play(16)">
+      <input class="button button17" type="button" value="К" onclick="play(17)">
+      <input class="button button18" type="button" value="Л" onclick="play(18)">
+      <input class="button button19" type="button" value="М" onclick="play(19)">
+      <input class="button button20" type="button" value="Н" onclick="play(20)">
+      <input class="button button21" type="button" value="О" onclick="play(21)">
+      <input class="button button22" type="button" value="П" onclick="play(22)">
+      <input class="button button23" type="button" value="Р" onclick="play(23)">
+      <input class="button button24" type="button" value="С" onclick="play(24)">
+      <input class="button button25" type="button" value="Т" onclick="play(25)">
+      <input class="button button26" type="button" value="У" onclick="play(26)">
+      <input class="button button27" type="button" value="Ф" onclick="play(27)">
+      <input class="button button28" type="button" value="Х" onclick="play(28)">
+      <input class="button button29" type="button" value="Ц" onclick="play(29)">
+      <input class="button button30" type="button" value="Ч" onclick="play(30)">
+      <input class="button button31" type="button" value="Ш" onclick="play(31)">
+      <input class="button button32" type="button" value="Щ" onclick="play(32)">
+      <input class="button button33" type="button" value="Ъ" onclick="play(33)">
+      <input class="button button34" type="button" value="Ы" onclick="play(34)">
+      <input class="button button35" type="button" value="Ь" onclick="play(35)">
+      <input class="button button36" type="button" value="Э" onclick="play(36)">
+      <input class="button button37" type="button" value="Ю" onclick="play(37)">
+      <input class="button button38" type="button" value="Я" onclick="play(38)">
+    </div>
+    <audio id="audio6" src="mp3/gen-6.mp3"></audio>
+    <audio id="audio7" src="mp3/gen-7.mp3"></audio>
+    <audio id="audio8" src="mp3/gen-8.mp3"></audio>
+    <audio id="audio9" src="mp3/gen-9.mp3"></audio>
+    <audio id="audio10" src="mp3/gen-10.mp3"></audio>
+    <audio id="audio11" src="mp3/gen-11.mp3"></audio>
+    <audio id="audio12" src="mp3/gen-12.mp3"></audio>
+    <audio id="audio13" src="mp3/gen-13.mp3"></audio>
+    <audio id="audio14" src="mp3/gen-14.mp3"></audio>
+    <audio id="audio15" src="mp3/gen-15.mp3"></audio>
+    <audio id="audio16" src="mp3/gen-16.mp3"></audio>
+    <audio id="audio17" src="mp3/gen-17.mp3"></audio>
+    <audio id="audio18" src="mp3/gen-18.mp3"></audio>
+    <audio id="audio19" src="mp3/gen-19.mp3"></audio>
+    <audio id="audio20" src="mp3/gen-20.mp3"></audio>
+    <audio id="audio21" src="mp3/gen-21.mp3"></audio>
+    <audio id="audio22" src="mp3/gen-22.mp3"></audio>
+    <audio id="audio23" src="mp3/gen-23.mp3"></audio>
+    <audio id="audio24" src="mp3/gen-24.mp3"></audio>
+    <audio id="audio25" src="mp3/gen-25.mp3"></audio>
+    <audio id="audio26" src="mp3/gen-26.mp3"></audio>
+    <audio id="audio27" src="mp3/gen-27.mp3"></audio>
+    <audio id="audio28" src="mp3/gen-28.mp3"></audio>
+    <audio id="audio29" src="mp3/gen-29.mp3"></audio>
+    <audio id="audio30" src="mp3/gen-30.mp3"></audio>
+    <audio id="audio31" src="mp3/gen-31.mp3"></audio>
+    <audio id="audio32" src="mp3/gen-32.mp3"></audio>
+    <audio id="audio33" src="mp3/gen-33.mp3"></audio>
+    <audio id="audio34" src="mp3/gen-34.mp3"></audio>
+    <audio id="audio35" src="mp3/gen-35.mp3"></audio>
+    <audio id="audio36" src="mp3/gen-36.mp3"></audio>
+    <audio id="audio37" src="mp3/gen-37.mp3"></audio>
+    <audio id="audio38" src="mp3/gen-38.mp3"></audio>
+</body>
+</html>
